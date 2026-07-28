@@ -93,7 +93,7 @@ Testing  Jenkins Build to check CI pipeline
 create the master branch  the Production Pipeline :
 
 <img width="1887" height="897" alt="image" src="https://github.com/user-attachments/assets/71d5c44e-98ba-4346-9d1c-879a4bd8d32f" />
-<img width="1307" height="867" alt="image" src="https://github.com/user-attachments/assets/283a3f50-b7e8-45e8-b67f-c823c85ceca1" />
+<img width="1317" height="917" alt="image" src="https://github.com/user-attachments/assets/f51f9392-ed78-45e4-95b1-9ef29c8949d2" />
 <img width="1902" height="897" alt="image" src="https://github.com/user-attachments/assets/14ed217a-752b-452c-91e6-05d327043ab7" />
 
 Test the Production Pipeline
