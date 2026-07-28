@@ -1,13 +1,13 @@
 # Application-Deployment3
 Final Project
 
-Step 1 Create an t2 micro EC2 Instance wih 20GB of configure storage with 
+Step 1 Create an t2 micro EC2 Instance with 20GB of configure storage with 
 
-| Type       | Port | Source                                                      |
-| ---------- | ---- | ----------------------------------------------------------- |
-| SSH        | 22   | **Anywhere (0.0.0.0/0)**                                    |
-| HTTP       | 80   | **Anywhere (0.0.0.0/0)**                                    |
-| Custom TCP | 8080 | **My IP** (recommended) or **Anywhere** (only if necessary) |
+ Type        Port  Source                                                      
+ --------------------------------------------------------------------------- 
+ SSH         22    Anywhere (0.0.0.0/0)                                   
+ HTTP        80    Anywhere (0.0.0.0/0)                                   
+ Custom TCP  8080  My IP 
 
 <img width="1918" height="816" alt="image" src="https://github.com/user-attachments/assets/b1de1f67-c6d1-4c33-b5ab-c749fc87816c" />
 
@@ -100,4 +100,24 @@ Test the Production Pipeline
 Merge  dev branch into main:
 <img width="1207" height="711" alt="image" src="https://github.com/user-attachments/assets/6d2723ec-9948-43f3-b4fe-3e5a51476bc7" />
 <img width="1090" height="642" alt="image" src="https://github.com/user-attachments/assets/4ca1018c-9fa6-400d-b357-c87f87ee5d75" />
+
+Build The CI/CD pipeline using main branch 
+<img width="1907" height="857" alt="image" src="https://github.com/user-attachments/assets/23460d07-b4de-4644-ac2e-048b3b61bf3a" />
+<img width="1910" height="772" alt="image" src="https://github.com/user-attachments/assets/c84bf165-089b-4988-ae73-65de8f9343ce" />
+<img width="1892" height="670" alt="image" src="https://github.com/user-attachments/assets/c91d3ab7-7240-492a-9cdf-145d4fa0892c" />
+
+
+
+Step 12 Using open-source monitoring system Uptime Kuma open port 3001 TCP my IP
+
+<img width="762" height="825" alt="image" src="https://github.com/user-attachments/assets/49fba748-cb9f-4295-baba-22e3463968f7" />
+<img width="1635" height="262" alt="image" src="https://github.com/user-attachments/assets/932073c5-64b5-4911-a534-703d2d19c2db" />
+
+Add new monitor with public Ip and set notifications Email(SMTP) from settings 
+
+<img width="1892" height="742" alt="image" src="https://github.com/user-attachments/assets/7c6cb757-051d-4aeb-90a4-9845c97a87ea" />
+<img width="1753" height="863" alt="image" src="https://github.com/user-attachments/assets/d23ef12c-595c-41e4-aa59-cf80dd388e6e" />
+<img width="1890" height="881" alt="image" src="https://github.com/user-attachments/assets/036e7dec-89d5-4475-8484-10f7181ebbbe" />
+<img width="337" height="132" alt="image" src="https://github.com/user-attachments/assets/ab3da624-a348-4b20-8830-f0eba5009766" />
+<img width="1893" height="806" alt="image" src="https://github.com/user-attachments/assets/315a879b-477e-4cad-84a6-bc4aff71ce10" />
 
